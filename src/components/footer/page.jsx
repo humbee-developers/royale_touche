@@ -12,7 +12,7 @@ import Title from "@/components/footer/test";
 import { useRouter } from "next/navigation";
 import styles from "@/components/footer/footer.module.css";
 import "./scroll_to_top.css";
-import Pvot_logo from "@/images/pvot-logo.png";
+// import HDS from "@/images/logo3.svg";
 import { usePathname } from "next/navigation";
 import {
   DirectLink,
@@ -162,14 +162,14 @@ const Page = () => {
         />
       </div>
       <div className={styles.footer_copyright}>
-        Copyright © 2024 All Rights Reserved by Royale Touche Performance Ply 
+        Copyright © 2024 All Rights Reserved by Royale Touche Performance Ply |
         <span className={styles.copyright_company_name}>
-          <Link href="https://pvotdesigns.com/" target="_blank">
-          <Image
+          <Link href="https://www.humbeestudio.com/" target="_blank"> H/DS
+          {/* <Image
           className={styles.pvot}
-            src={Pvot_logo}
+            src={HDS}
             alt="Footer-logo"
-          />
+          /> */}
           </Link>
         </span>
       </div>
